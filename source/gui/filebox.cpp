@@ -1057,7 +1057,7 @@ namespace nana
 			{
 				while(true)
 				{
-					auto pos = text.find_first_of(" \"", start_pos);
+					auto pos = text.find_first_of("\"", start_pos);
 					if(text.npos == pos)
 					{
 						if(text.length() == start_pos)
